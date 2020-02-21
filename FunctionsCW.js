@@ -36,13 +36,39 @@ countToUserStop(stoppingPoint);//Call To Action
 
 // ### Problem 4
 // Create a function called checkPassword. Send two string variables to the checkPassword function to check if the strings are equal. Return true if they are equal and false if they are not equal. Print the function's return value.
+// *Start of Code*
 let userPwd = prompt("Enter your password: ");
 let realPwd = 'password';
-function checkPassword(userPassword, realPassword) {
-    if (userPassword == realPassword) {
-        return (userPassword == realPassword);
-    } else if (userPassword != realPassword) {
-        return (userPassword != realPassword);
+function checkPassword(userPassword, realPassword) {//Fuction Declaration
+    if (userPassword == realPassword) {//Check for match in order to return "True"
+        return userPassword == realPassword;
+    } else {//Check the same condition order to capture "False" result
+        return userPassword == realPassword;
     }
 }
-checkPassword(userPwd, realPwd);
+let result = checkPassword(userPwd, realPwd);//Function Call To Action
+console.log(result);//Print Results
+// *End of Code*
+
+
+// ### Problem 5
+// Create a ```sumOf3Numbers``` function that will print out the sum of the three numbers using the starting code below:
+// ```javascript
+// var number1 = 0;
+// var number2 = 0;
+// var number3 = 0;
+// sumOf3Numbers(number1, number2, number3);
+// *Start of Code*
+// Get any three numbers from the user
+let number1 = parseInt(prompt("Lets find the sum of three numbers. Enter your first number"));
+let number2 = parseInt(prompt("Enter your second number"));
+let number3 = parseInt(prompt("Enter your third number"));
+function sumOf3Numbers(number1, number2, number3) {//Function Declaration
+    return (number1 + number2 + number3);
+}
+let finalanswer = sumOf3Numbers(number1, number2, number3);//Set a placeholder for the function's return value
+console.log(`The sum of ${number1} + ${number2} + ${number3} is :${finalanswer}`);//Print Your Results
+// *End of Code*
+
+// ### Challenge
+// Create 4 functions called add, subtract, multiply, and divide. Create them to allow a user to perform the name of the function to the two numbers and return the result.
