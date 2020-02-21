@@ -72,3 +72,20 @@ console.log(`The sum of ${number1} + ${number2} + ${number3} is :${finalanswer}`
 
 // ### Challenge
 // Create 4 functions called add, subtract, multiply, and divide. Create them to allow a user to perform the name of the function to the two numbers and return the result.
+
+// let userch1 = parseInt(prompt("Enter your first number"));
+// let userch2 = parseInt(prompt("Enter your second number"));
+// let userCalledFunction =prompt("Which operation would you like to perform? (+)(-)(x)(/)");
+// function add(user1,user2){
+//     return user1+user2;
+// }
+// function subtract(user1,user2){
+//     return user1-user2;
+// }
+// function multiply(user1,user2){
+//     return user1*user2;
+// }
+// function divide(user1,user2){
+//     return user1/user2;
+// }
+
